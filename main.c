@@ -1,8 +1,13 @@
-#include <stdio.h>
+
+
 
 int main()
 {
-    printf("Hello World\n");
 
+    vTaskStartScheduler();
+
+
+
+    for ( ;; );
     return 0;
 }
